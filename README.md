@@ -4,6 +4,8 @@ Adds color and log levels to `console.log` output.
 
 ### Examples
 
+![Logger examples](https://joepettit.com/uploads/logger.PNG)
+
 ### Install
 
 `npm install logger`
