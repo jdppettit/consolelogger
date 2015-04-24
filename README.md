@@ -1,4 +1,4 @@
-## Logger
+## ConsoleLogger
 
 Adds color and log levels to `console.log` output.
 
@@ -8,7 +8,7 @@ Adds color and log levels to `console.log` output.
 
 ### Install
 
-`npm install logger`
+`npm install consolelogger`
 
 ### Use
 
@@ -25,7 +25,7 @@ Log levels available:
 Require logger: 
 
 ```
-var log = require('logger').log;
+var log = require('consolelogger').log;
 ```
 
 Then just drop `console` from `console.log`:

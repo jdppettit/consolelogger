@@ -1,14 +1,14 @@
 {
-  "name": "logger",
-  "version": "1.0.0",
+  "name": "consolelogger",
+  "version": "1.0.1",
   "description": "Makes console output neat and easy to read",
-  "main": "logger.js",
+  "main": "consolelogger.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/silverp1/logger.git"
+    "url": "https://github.com/silverp1/consolelogger.git"
   },
   "keywords": [
     "console",
@@ -17,9 +17,9 @@
   "author": "Joe Pettit",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/silverp1/logger/issues"
+    "url": "https://github.com/silverp1/consolelogger/issues"
   },
-  "homepage": "https://github.com/silverp1/logger#readme",
+  "homepage": "https://github.com/silverp1/consolelogger#readme",
   "dependencies": {
     "colors": "^1.0.3",
     "moment": "^2.10.2"
