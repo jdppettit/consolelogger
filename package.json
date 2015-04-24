@@ -14,10 +14,10 @@
     "console",
     "log"
   ],
-  "author": "Joe Pettit <jpettit@pettitservers.com>", 
+  "author": "Joe Pettit <jpettit@pettitservers.com>",
   "contributors": [{
-    "name": "Zach Buhman",
-    "email": "zach@buhman.org"
+    "name": "Zack Buhman",
+    "email": "zack@buhman.org"
   }],
   "license": "ISC",
   "bugs": {
