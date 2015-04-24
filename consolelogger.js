@@ -1,32 +1,17 @@
 var colors = require('colors');
 var moment = require('moment');
 
+var severities = {
+    'error': colors.red,
+    'warning': colors.yellow,
+    'success': colors.green,
+    'info': colors.cyan,
+    'debug': colors.blue
+};
+
 module.exports = {
     log: function(message, severity) {
-        timestamp = moment().format();
-        if (severity == "error")
-        {
-            console.log(colors.red("[ERROR] [" + timestamp + "] " + message));
-        }
-        else if (severity == "warning")
-        {
-            console.log(colors.yellow("[WARNING] [" + timestamp + "] " + message));
-        }
-        else if (severity == "success")
-        {
-            console.log(colors.green("[SUCCESS] [" + timestamp + "] " + message));
-        }
-        else if (severity == "info")
-        {
-            console.log(colors.cyan("[INFO] [" + timestamp + "] " + message));
-        }
-        else if (severity == "debug")
-        {
-            console.log(colors.blue("[DEBUG] [" + timestamp + "] " + message));
-        }
-        else
-        {
-            console.log("[MESSAGE] [" + timestamp + "] " + message);
-        }
+        var f = severities[severity] || function(v) { return v; }
+        console.log(f("[" + severity + "] [" + moment().format() + "] " + message));
     }
 };
