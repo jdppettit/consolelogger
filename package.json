@@ -1,0 +1,27 @@
+{
+  "name": "logger",
+  "version": "1.0.0",
+  "description": "Makes console output neat and easy to read",
+  "main": "logger.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/silverp1/logger.git"
+  },
+  "keywords": [
+    "console",
+    "log"
+  ],
+  "author": "Joe Pettit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/silverp1/logger/issues"
+  },
+  "homepage": "https://github.com/silverp1/logger#readme",
+  "dependencies": {
+    "colors": "^1.0.3",
+    "moment": "^2.10.2"
+  }
+}
