@@ -1,6 +1,6 @@
 {
   "name": "consolelogger",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Makes console output neat and easy to read",
   "main": "consolelogger.js",
   "scripts": {
@@ -14,7 +14,11 @@
     "console",
     "log"
   ],
-  "author": "Joe Pettit",
+  "author": "Joe Pettit <jpettit@pettitservers.com>", 
+  "contributors": [{
+    "name": "Zach Buhman",
+    "email": "zach@buhman.org"
+  ]},
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/silverp1/consolelogger/issues"
