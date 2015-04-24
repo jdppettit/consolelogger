@@ -1,4 +1,4 @@
-var log = require('./logger').log;
+var log = require('consolelogger').log;
 
 log("This is error", "error");
 
